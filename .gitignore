@@ -13,3 +13,6 @@ npm-debug.log
 yarn-error.log
 composer.lock
 .php_cs.cache
+/src
+
+/vendor
