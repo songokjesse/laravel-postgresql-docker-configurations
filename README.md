@@ -11,5 +11,5 @@ Open up your browser of choice to [http://localhost:8080](http://localhost:8080)
 Containers created and their ports are as follows:
 
 - **nginx** - `:8080`
-- **mysql** - `:3306`
+- **pgsql** - `:5400`
 - **php** - `:9000`
