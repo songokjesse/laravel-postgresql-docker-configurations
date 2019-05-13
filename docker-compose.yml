@@ -27,7 +27,7 @@ services:
     networks:
       - laravel
 
-  postgres:
+  postgresql:
     image: postgres:latest
     environment:
       POSTGRES_USER: db
