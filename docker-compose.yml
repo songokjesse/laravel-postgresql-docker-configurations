@@ -15,6 +15,18 @@ services:
     networks:
       - laravel
 
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: php
+    volumes:
+      - ./src:/var/www
+    ports:
+      - "9000:9000"
+    networks:
+      - laravel
+      - 
   postgres:
     image: postgres:latest
     environment:
